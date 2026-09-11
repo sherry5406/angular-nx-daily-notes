@@ -8,7 +8,7 @@
 
 | 日期 | 主題 | 文章 |
 |---|---|---|
-| 2026-09-11 | Signal Forms × Nx Monorepo 實戰 | [閱讀文章](2026/09/2026-09-11-signal-forms-nx-monorepo.md) |
+| 2026-09-11 | Signal Forms 穩定版 × Nx 23.2 Agent-friendly CI | [閱讀文章](2026/09/2026-09-11-signal-forms-nx-monorepo.md) |
 | 2026-09-10 | Angular SSR URL Parsing 安全更新 | [閱讀文章](2026/09/2026-09-10-angular-ssr-url-parsing.md) |
 | 2026-09-09 | Nx Remote Cache × Affected CI 實戰 | [閱讀文章](2026/09/2026-09-09-nx-remote-cache-affected-ci.md) |
 
@@ -100,6 +100,8 @@ YYYY-MM-DD-當日核心主題.md
 1. 當日 Markdown 文章
 2. 本 README 總目錄
 3. 日期、主題與文章連結
+
+README 必須以 GitHub 目前實際存在的文章為準；歷史文章恢復後也要補入索引。
 
 不再同步到 Notion。
 
