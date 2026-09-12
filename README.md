@@ -8,6 +8,7 @@
 
 | 日期 | 主題 | 文章 |
 |---|---|---|
+| 2026-09-12 | Signal Forms Field State × Submit 實戰 | [閱讀文章](2026/09/2026-09-12-signal-forms-field-state-submit.md) |
 | 2026-09-11 | Signal Forms 穩定版 × Nx 23.2 Agent-friendly CI | [閱讀文章](2026/09/2026-09-11-signal-forms-nx-monorepo.md) |
 | 2026-09-10 | Angular SSR URL Parsing 安全更新 | [閱讀文章](2026/09/2026-09-10-angular-ssr-url-parsing.md) |
 | 2026-09-09 | Nx Remote Cache × Affected CI 實戰 | [閱讀文章](2026/09/2026-09-09-nx-remote-cache-affected-ci.md) |
@@ -42,7 +43,7 @@
 1. `signal()` + `form()` 基礎
 2. `formField`
 3. Validation
-4. Error handling
+4. Field State / Error handling
 5. Submit / Form State
 6. Nested Object
 7. Array / Dynamic Form
@@ -76,7 +77,8 @@
 └── 09/
     ├── 2026-09-09-*.md
     ├── 2026-09-10-*.md
-    └── 2026-09-11-*.md
+    ├── 2026-09-11-*.md
+    └── 2026-09-12-*.md
 ```
 
 檔名規則：
@@ -113,3 +115,4 @@ README 必須以 GitHub 目前實際存在的文章為準；歷史文章恢復�
 - [Angular Releases](https://angular.dev/reference/releases)
 - [Angular Signal Forms](https://angular.dev/essentials/signal-forms)
 - [Nx](https://nx.dev/)
+- [Nx Releases](https://nx.dev/docs/reference/releases)
