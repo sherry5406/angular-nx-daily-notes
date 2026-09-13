@@ -8,6 +8,7 @@
 
 | 日期 | 主題 | 文章 |
 |---|---|---|
+| 2026-09-13 | Signal Forms Nested Object × Type-safe Form Model | [閱讀文章](2026/09/2026-09-13-signal-forms-nested-object-model.md) |
 | 2026-09-12 | Signal Forms Field State × Submit 實戰 | [閱讀文章](2026/09/2026-09-12-signal-forms-field-state-submit.md) |
 | 2026-09-11 | Signal Forms 穩定版 × Nx 23.2 Agent-friendly CI | [閱讀文章](2026/09/2026-09-11-signal-forms-nx-monorepo.md) |
 | 2026-09-10 | Angular SSR URL Parsing 安全更新 | [閱讀文章](2026/09/2026-09-10-angular-ssr-url-parsing.md) |
@@ -41,17 +42,15 @@
 依序從基礎一路進階：
 
 1. `signal()` + `form()` 基礎
-2. `formField`
-3. Validation
-4. Field State / Error handling
-5. Submit / Form State
-6. Nested Object
-7. Array / Dynamic Form
-8. API DTO ↔ Signal Form
-9. Signal Forms + `httpResource`
-10. Signal Forms + RxJS
-11. Shared UI Components
-12. Nx Feature / Data Access / UI Architecture
+2. `formField` / Form Model / FieldTree
+3. Field State / Submit lifecycle
+4. Nested Object + Form Model
+5. Array / Dynamic Form
+6. API DTO ↔ Signal Form
+7. Signal Forms + `httpResource`
+8. Signal Forms + RxJS
+9. Shared UI Components
+10. Nx Feature / Data Access / UI Architecture
 
 ### Nx Monorepo
 
@@ -78,7 +77,8 @@
     ├── 2026-09-09-*.md
     ├── 2026-09-10-*.md
     ├── 2026-09-11-*.md
-    └── 2026-09-12-*.md
+    ├── 2026-09-12-*.md
+    └── 2026-09-13-*.md
 ```
 
 檔名規則：
@@ -115,4 +115,4 @@ README 必須以 GitHub 目前實際存在的文章為準；歷史文章恢復�
 - [Angular Releases](https://angular.dev/reference/releases)
 - [Angular Signal Forms](https://angular.dev/essentials/signal-forms)
 - [Nx](https://nx.dev/)
-- [Nx Releases](https://nx.dev/docs/reference/releases)
+- [Nx Releases / Changelog](https://nx.dev/changelog)
