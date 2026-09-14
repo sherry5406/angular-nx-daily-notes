@@ -8,6 +8,7 @@
 
 | 日期 | 主題 | 文章 |
 |---|---|---|
+| 2026-09-14 | Signal Forms Array × Dynamic Form 實戰 | [閱讀文章](2026/09/2026-09-14-signal-forms-array-dynamic-form.md) |
 | 2026-09-13 | Signal Forms Nested Object × Type-safe Form Model | [閱讀文章](2026/09/2026-09-13-signal-forms-nested-object-model.md) |
 | 2026-09-12 | Signal Forms Field State × Submit 實戰 | [閱讀文章](2026/09/2026-09-12-signal-forms-field-state-submit.md) |
 | 2026-09-11 | Signal Forms 穩定版 × Nx 23.2 Agent-friendly CI | [閱讀文章](2026/09/2026-09-11-signal-forms-nx-monorepo.md) |
@@ -78,7 +79,8 @@
     ├── 2026-09-10-*.md
     ├── 2026-09-11-*.md
     ├── 2026-09-12-*.md
-    └── 2026-09-13-*.md
+    ├── 2026-09-13-*.md
+    └── 2026-09-14-*.md
 ```
 
 檔名規則：
