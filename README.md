@@ -8,6 +8,7 @@
 
 | 日期 | 主題 | 文章 |
 |---|---|---|
+| 2026-09-16 | Signal Forms × httpResource：Reactive API 表單 | [閱讀文章](2026/09/2026-09-16-signal-forms-http-resource.md) |
 | 2026-09-15 | Signal Forms API DTO × Domain Model | [閱讀文章](2026/09/2026-09-15-signal-forms-api-dto-mapping.md) |
 | 2026-09-14 | Signal Forms Array × Dynamic Form 實戰 | [閱讀文章](2026/09/2026-09-14-signal-forms-array-dynamic-form.md) |
 | 2026-09-13 | Signal Forms Nested Object × Type-safe Form Model | [閱讀文章](2026/09/2026-09-13-signal-forms-nested-object-model.md) |
@@ -82,7 +83,8 @@
     ├── 2026-09-12-*.md
     ├── 2026-09-13-*.md
     ├── 2026-09-14-*.md
-    └── 2026-09-15-*.md
+    ├── 2026-09-15-*.md
+    └── 2026-09-16-*.md
 ```
 
 檔名規則：
