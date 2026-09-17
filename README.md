@@ -8,6 +8,7 @@
 
 | 日期 | 主題 | 文章 |
 |---|---|---|
+| 2026-09-17 | Signal Forms × RxJS：建立清楚的 Reactive Data Flow | [閱讀文章](2026/09/2026-09-17-signal-forms-rxjs.md) |
 | 2026-09-16 | Signal Forms × httpResource：Reactive API 表單 | [閱讀文章](2026/09/2026-09-16-signal-forms-http-resource.md) |
 | 2026-09-15 | Signal Forms API DTO × Domain Model | [閱讀文章](2026/09/2026-09-15-signal-forms-api-dto-mapping.md) |
 | 2026-09-14 | Signal Forms Array × Dynamic Form 實戰 | [閱讀文章](2026/09/2026-09-14-signal-forms-array-dynamic-form.md) |
@@ -84,7 +85,8 @@
     ├── 2026-09-13-*.md
     ├── 2026-09-14-*.md
     ├── 2026-09-15-*.md
-    └── 2026-09-16-*.md
+    ├── 2026-09-16-*.md
+    └── 2026-09-17-*.md
 ```
 
 檔名規則：
@@ -120,5 +122,6 @@ README 必須以 GitHub 目前實際存在的文章為準；歷史文章恢復�
 - [Angular](https://angular.dev/)
 - [Angular Releases](https://angular.dev/reference/releases)
 - [Angular Signal Forms](https://angular.dev/essentials/signal-forms)
+- [Angular RxJS Interop](https://angular.dev/ecosystem/rxjs-interop)
 - [Nx](https://nx.dev/)
 - [Nx Releases / Changelog](https://nx.dev/changelog)
