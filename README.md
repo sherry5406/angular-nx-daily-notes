@@ -8,6 +8,7 @@
 
 | 日期 | 主題 | 文章 |
 |---|---|---|
+| 2026-09-18 | Signal Forms × Shared UI Components：建立可重用的 Field Error 與 Form Control | [閱讀文章](2026/09/2026-09-18-signal-forms-shared-ui-components.md) |
 | 2026-09-17 | Signal Forms × RxJS：建立清楚的 Reactive Data Flow | [閱讀文章](2026/09/2026-09-17-signal-forms-rxjs.md) |
 | 2026-09-16 | Signal Forms × httpResource：Reactive API 表單 | [閱讀文章](2026/09/2026-09-16-signal-forms-http-resource.md) |
 | 2026-09-15 | Signal Forms API DTO × Domain Model | [閱讀文章](2026/09/2026-09-15-signal-forms-api-dto-mapping.md) |
@@ -86,7 +87,8 @@
     ├── 2026-09-14-*.md
     ├── 2026-09-15-*.md
     ├── 2026-09-16-*.md
-    └── 2026-09-17-*.md
+    ├── 2026-09-17-*.md
+    └── 2026-09-18-*.md
 ```
 
 檔名規則：
