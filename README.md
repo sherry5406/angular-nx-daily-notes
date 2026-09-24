@@ -8,6 +8,7 @@
 
 | 日期 | 主題 | 文章 |
 |---|---|---|
+| 2026-09-24 | Signal Forms 測試策略 × Nx Feature Boundary | [閱讀文章](2026/09/2026-09-24-signal-forms-testing-architecture.md) |
 | 2026-09-18 | Signal Forms × Shared UI Components：建立可重用的 Field Error 與 Form Control | [閱讀文章](2026/09/2026-09-18-signal-forms-shared-ui-components.md) |
 | 2026-09-17 | Signal Forms × RxJS：建立清楚的 Reactive Data Flow | [閱讀文章](2026/09/2026-09-17-signal-forms-rxjs.md) |
 | 2026-09-16 | Signal Forms × httpResource：Reactive API 表單 | [閱讀文章](2026/09/2026-09-16-signal-forms-http-resource.md) |
@@ -36,10 +37,12 @@
 - Angular 最新版本與版本支援週期
 - Signals
 - Signal Forms
+- Resource / `httpResource`
 - SSR
-- HttpClient / `httpResource`
+- HttpClient
 - RxJS 與 Signals 整合
 - 元件與共用元件設計
+- 測試策略
 - Angular 升級策略
 
 ### 🆕 Signal Forms 課程
@@ -55,7 +58,7 @@
 7. Signal Forms + `httpResource`
 8. Signal Forms + RxJS
 9. Shared UI Components
-10. Nx Feature / Data Access / UI Architecture
+10. Testing + Feature Architecture
 
 ### Nx Monorepo
 
@@ -88,7 +91,8 @@
     ├── 2026-09-15-*.md
     ├── 2026-09-16-*.md
     ├── 2026-09-17-*.md
-    └── 2026-09-18-*.md
+    ├── 2026-09-18-*.md
+    └── 2026-09-24-*.md
 ```
 
 檔名規則：
@@ -124,6 +128,9 @@ README 必須以 GitHub 目前實際存在的文章為準；歷史文章恢復�
 - [Angular](https://angular.dev/)
 - [Angular Releases](https://angular.dev/reference/releases)
 - [Angular Signal Forms](https://angular.dev/essentials/signal-forms)
+- [Angular Resource](https://angular.dev/guide/signals/resource)
+- [Angular httpResource](https://angular.dev/guide/http/http-resource)
 - [Angular RxJS Interop](https://angular.dev/ecosystem/rxjs-interop)
 - [Nx](https://nx.dev/)
 - [Nx Releases / Changelog](https://nx.dev/changelog)
+- [Nx Angular / Nx Version Matrix](https://nx.dev/docs/kb/angular-nx-version-matrix)
