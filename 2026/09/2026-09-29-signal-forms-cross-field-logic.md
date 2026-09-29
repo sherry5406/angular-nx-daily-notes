@@ -18,7 +18,7 @@
 
 這些都是「一個 field 依賴另一個 field」的情境。
 
-Signal Forms 官方提供 field context，可以在規則中使用 `valueOf()` 讀取其他欄位的值，也可以使用 `stateOf()` 讀取其他欄位狀態，使用 `fieldTreeOf()` 取得對應的 FieldTree。這比把跨欄位邏輯散落在 component event handler 裡更容易維護。citeturn0search7
+Signal Forms 官方提供 field context，可以在規則中使用 `valueOf()` 讀取其他欄位的值，也可以使用 `stateOf()` 讀取其他欄位狀態，使用 `fieldTreeOf()` 取得對應的 FieldTree。這比把跨欄位邏輯散落在 component event handler 裡更容易維護。
 
 可以先記住這個模型：
 
@@ -80,7 +80,7 @@ valueOf(schema.password)
 建立 reactive dependency
 ```
 
-當 `password` 改變時，相關 cross-field rule 可以重新評估。Angular 官方的 Cross-field Logic 指南就是以 field context 與 `valueOf()`、`stateOf()`、`fieldTreeOf()` 作為主要 API。citeturn0search7
+當 `password` 改變時，相關 cross-field rule 可以重新評估。Angular 官方的 Cross-field Logic 指南就是以 field context 與 `valueOf()`、`stateOf()`、`fieldTreeOf()` 作為主要 API。
 
 ---
 
@@ -357,7 +357,7 @@ accountType = company
 companyName required
 ```
 
-Angular 官方 Validation 文件也支援使用 `when` 建立條件式 validation。citeturn0search1
+Angular 官方 Validation 文件也支援使用 `when` 建立條件式 validation。
 
 ---
 
@@ -405,7 +405,7 @@ errors()
 
 全部留在同一套表單模型裡。
 
-官方文件也指出，Signal Forms validation rules 會在值變更時自動執行，錯誤透過 field state signals 暴露給 UI。citeturn0search1turn0search3
+官方文件也指出，Signal Forms validation rules 會在值變更時自動執行，錯誤透過 field state signals 暴露給 UI。
 
 ---
 
@@ -461,9 +461,9 @@ API
 成功 / submission error
 ```
 
-Angular 官方文件指出，`submit()` 會先標記 interactive fields 為 touched，再檢查 validation；驗證通過才執行 action，執行期間 `submitting()` 會是 `true`。citeturn0search0
+Angular 官方文件指出，`submit()` 會先標記 interactive fields 為 touched，再檢查 validation；驗證通過才執行 action，執行期間 `submitting()` 會是 `true`。
 
-而 `FormRoot` 會自動設定 `novalidate`、阻止瀏覽器預設 submit，並觸發 Signal Forms 的 submit flow。citeturn0search5
+而 `FormRoot` 會自動設定 `novalidate`、阻止瀏覽器預設 submit，並觸發 Signal Forms 的 submit flow。
 
 因此實務上不要再另外維護：
 
@@ -481,7 +481,7 @@ isSubmitting = signal(false);
 
 今天馬上把昨天的測試策略套進來。
 
-Angular 官方目前建議：如果要驗證 validation rule、`errors()`、`valid()`、`invalid()` 或 cross-field reactive dependencies，可以優先使用 **isolated tests**；只有需要驗證 DOM、輸入事件、focus 或 accessibility 時，才需要 component-bound tests。citeturn0search6
+Angular 官方目前建議：如果要驗證 validation rule、`errors()`、`valid()`、`invalid()` 或 cross-field reactive dependencies，可以優先使用 **isolated tests**；只有需要驗證 DOM、輸入事件、focus 或 accessibility 時，才需要 component-bound tests。
 
 例如可以先測：
 
@@ -622,9 +622,9 @@ Shared library 應該放「真的共用」的 UI 或純 validation helper，不�
 
 # 🤖 Nx 23.2 × AI Agent 實戰
 
-截至 2026-09-29，Nx 官方 changelog 最新列出的版本是 **Nx 23.2**，發布日期為 **2026-09-02**。23.2 帶來 Oxlint / Oxfmt、較精簡的成功任務輸出、agent sandbox 支援、跨 worktree / clone / sandbox 的 cache，以及 Angular 22.1 支援。citeturn1search3turn1search1
+截至 2026-09-29，Nx 官方 changelog 最新列出的版本是 **Nx 23.2**，發布日期為 **2026-09-02**。23.2 帶來 Oxlint / Oxfmt、較精簡的成功任務輸出、agent sandbox 支援、跨 worktree / clone / sandbox 的 cache，以及 Angular 22.1 支援。
 
-其中對 AI coding agent 特別有價值的是「成功的 task 不再把大量 log 全部吐給 agent」。Nx 23.2 的 failure-only output 會把成功與 cache hit 壓成單行，只有失敗 task 顯示完整輸出，降低 agent 需要處理的 token 量。citeturn1search1
+其中對 AI coding agent 特別有價值的是「成功的 task 不再把大量 log 全部吐給 agent」。Nx 23.2 的 failure-only output 會把成功與 cache hit 壓成單行，只有失敗 task 顯示完整輸出，降低 agent 需要處理的 token 量。
 
 實務上可以讓 Agent 遵循：
 
@@ -649,7 +649,7 @@ nx affected -t lint test build
 nx add @nx/oxlint
 ```
 
-Nx 官方目前將 `@nx/oxlint` 標示為 experimental，且 Angular template / HTML 等規則目前仍可能需要 ESLint，因此不要一次把所有 lint 規則全部搬走。citeturn1search1
+Nx 官方目前將 `@nx/oxlint` 標示為 experimental，且 Angular template / HTML 等規則目前仍可能需要 ESLint，因此不要一次把所有 lint 規則全部搬走。
 
 ---
 
@@ -663,13 +663,13 @@ Nx 官方目前將 `@nx/oxlint` 標示為 experimental，且 Angular template / 
 | Angular 21 | LTS | 2025-11-19 | 2027-06 |
 | Angular 20 | LTS | 2025-05-28 | 2026-11-28 |
 
-Angular 22 是目前最新的 stable major，Angular 21 已進入 LTS。citeturn1search0
+Angular 22 是目前最新的 stable major，Angular 21 已進入 LTS。
 
 ### Angular 21 專案今天要注意什麼？
 
-Signal Forms 的整體能力需要 Angular 21+；但部分 API，例如 `submit()` 與 `FormRoot`，官方 API reference 已標示為 **stable since v22.0**。因此如果你的專案還在 Angular 21，不要把「官方現在的 stable 狀態」倒推成「Angular 21 每個 Signal Forms API 都同樣穩定」。citeturn0search11turn0search2turn0search5
+Signal Forms 的整體能力需要 Angular 21+；但部分 API，例如 `submit()` 與 `FormRoot`，官方 API reference 已標示為 **stable since v22.0**。因此如果你的專案還在 Angular 21，不要把「官方現在的 stable 狀態」倒推成「Angular 21 每個 Signal Forms API 都同樣穩定」。
 
-升級時也要一起檢查 Node / TypeScript 相容性。Angular 官方目前列出的 Angular 21 相容版本包含 Node `^20.19.0 || ^22.12.0 || ^24.0.0`、TypeScript `>=5.9.0 <6.0.0`；Angular 22 則需要 TypeScript `>=6.0.0 <6.1.0`，Node `^20.19.0 || ^22.12.0 || ^24.0.0`。citeturn1search6
+升級時也要一起檢查 Node / TypeScript 相容性。Angular 官方目前列出的 Angular 21 相容版本包含 Node `^20.19.0 || ^22.12.0 || ^24.0.0`、TypeScript `>=5.9.0 <6.0.0`；Angular 22 則需要 TypeScript `>=6.0.0 <6.1.0`，Node `^20.19.0 || ^22.12.0 || ^24.0.0`。
 
 升級原則：
 
@@ -689,7 +689,7 @@ review migration
 Angular 22
 ```
 
-Nx 23.2 的 Angular migration 也已支援 Angular 22.1，官方建議使用 `nx migrate` 管理版本升級，而不是手動一次改大量套件版本。citeturn1search4turn1search1
+Nx 23.2 的 Angular migration 也已支援 Angular 22.1，官方建議使用 `nx migrate` 管理版本升級，而不是手動一次改大量套件版本。
 
 ---
 
