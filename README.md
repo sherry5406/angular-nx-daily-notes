@@ -4,11 +4,17 @@
 
 ## 📚 每日文章
 
+### 2026 年 10 月
+
+| 日期 | 主題 | 文章 |
+|---|---|---|
+| 2026-10-25 | Signal Forms 條件式 × 非同步驗證 × Nx 24 Task-based Affected | [閱讀文章](2026/10/2026-10-25-signal-forms-conditional-async-nx24.md) |
+
 ### 2026 年 9 月
 
 | 日期 | 主題 | 文章 |
 |---|---|---|
-| 2026-09-29 | Signal Forms Cross-field Logic × `valueOf()` | [閱讀文章](2026/09/2026-09-29-signal-forms-cross-field-logic.md) |
+| 2026-09-29 | Signal Forms Cross-field Logic × valueOf() | [閱讀文章](2026/09/2026-09-29-signal-forms-cross-field-logic.md) |
 | 2026-09-24 | Signal Forms 測試策略 × Nx Feature Boundary | [閱讀文章](2026/09/2026-09-24-signal-forms-testing-architecture.md) |
 | 2026-09-18 | Signal Forms × Shared UI Components：建立可重用的 Field Error 與 Form Control | [閱讀文章](2026/09/2026-09-18-signal-forms-shared-ui-components.md) |
 | 2026-09-17 | Signal Forms × RxJS：建立清楚的 Reactive Data Flow | [閱讀文章](2026/09/2026-09-17-signal-forms-rxjs.md) |
@@ -23,7 +29,7 @@
 
 ### 2026 年 8 月
 
-> 歷史文章會持續回補；目前 GitHub 已可取得的完整文章會優先列入。
+> 歷史文章會持續回補；目前 main 分支尚未包含此區間的每日文章檔案。
 
 | 日期 | 主題 | 文章 |
 |---|---|---|
@@ -38,7 +44,7 @@
 - Angular 最新版本與版本支援週期
 - Signals
 - Signal Forms
-- Resource / `httpResource`
+- Resource / httpResource
 - SSR
 - HttpClient
 - RxJS 與 Signals 整合
@@ -51,18 +57,18 @@
 
 依序從基礎一路進階：
 
-1. `signal()` + `form()` 基礎
-2. `formField` / Form Model / FieldTree
+1. signal() + form() 基礎
+2. formField / Form Model / FieldTree
 3. Field State / Submit lifecycle
 4. Nested Object + Form Model
 5. Array / Dynamic Form
 6. API DTO ↔ Signal Form
-7. Signal Forms + `httpResource`
+7. Signal Forms + httpResource
 8. Signal Forms + RxJS
 9. Shared UI Components
 10. Testing + Feature Architecture
-11. Cross-field Logic：`valueOf()` / `stateOf()` / `fieldTreeOf()`
-12. Conditional / Async Validation
+11. Cross-field Logic：valueOf() / stateOf() / fieldTreeOf()
+12. Conditional / Async Validation（2026-10-25）
 
 ### Nx Monorepo
 
@@ -75,43 +81,38 @@
 - Angular + Nx Monorepo 實戰
 - AI Coding / MCP 與 Monorepo 工作流
 - Nx 23.2 Agent-friendly workflow
+- Nx 23.3 Task-based Affected
+- Nx 24 Task-based Affected、inferred tasks 與升級注意事項
+- Nx Cloud Ultracache / Dynamic Task Packing
 
 ---
 
 ## 📁 目錄結構
 
-```text
+~~~text
 2026/
 ├── 08/
-│   ├── 2026-08-17-*.md
-│   ├── 2026-08-18-*.md
-│   └── ...
-└── 09/
-    ├── 2026-09-09-*.md
-    ├── 2026-09-10-*.md
-    ├── 2026-09-11-*.md
-    ├── 2026-09-12-*.md
-    ├── 2026-09-13-*.md
-    ├── 2026-09-14-*.md
-    ├── 2026-09-15-*.md
-    ├── 2026-09-16-*.md
-    ├── 2026-09-17-*.md
-    ├── 2026-09-18-*.md
-    ├── 2026-09-24-*.md
-    └── 2026-09-29-*.md
-```
+│   └── 歷史文章待回補（目前 main 尚無此月份的文章檔案）
+├── 09/
+│   ├── 2026-09-09-*.md
+│   ├── 2026-09-10-*.md
+│   ├── 2026-09-11-*.md
+│   ├── 2026-09-12-*.md
+│   ├── 2026-09-13-*.md
+│   ├── 2026-09-14-*.md
+│   ├── 2026-09-15-*.md
+│   ├── 2026-09-16-*.md
+│   ├── 2026-09-17-*.md
+│   ├── 2026-09-18-*.md
+│   ├── 2026-09-24-*.md
+│   └── 2026-09-29-*.md
+└── 10/
+    └── 2026-10-25-signal-forms-conditional-async-nx24.md
+~~~
 
-檔名規則：
+檔名規則：YYYY-MM-DD-當日核心主題.md
 
-```text
-YYYY-MM-DD-當日核心主題.md
-```
-
-文章標題規則：
-
-```text
-當日核心技術主題｜YYYY-MM-DD
-```
+文章標題規則：當日核心技術主題｜YYYY-MM-DD
 
 ---
 
@@ -123,7 +124,7 @@ YYYY-MM-DD-當日核心主題.md
 2. 本 README 總目錄
 3. 日期、主題與文章連結
 
-README 必須以 GitHub 目前實際存在的文章為準；歷史文章恢復後也要補入索引。
+README 必須以 GitHub main 分支目前實際存在的文章為準；歷史文章恢復後也要補入索引。
 
 不再同步到 Notion。
 
@@ -134,8 +135,11 @@ README 必須以 GitHub 目前實際存在的文章為準；歷史文章恢復�
 - [Angular](https://angular.dev/)
 - [Angular Releases](https://angular.dev/reference/releases)
 - [Angular Version Compatibility](https://angular.dev/reference/versions)
+- [Angular Update Guide](https://angular.dev/update-guide)
 - [Angular Signal Forms](https://angular.dev/essentials/signal-forms)
-- [Angular Signal Forms Cross-field Logic](https://angular.dev/guide/forms/signals/cross-field-logic)
+- [Angular Signal Forms Validation](https://angular.dev/guide/forms/signals/validation)
+- [Angular Signal Forms Async Operations](https://angular.dev/guide/forms/signals/async-operations)
+- [Angular Signal Forms Schemas](https://angular.dev/guide/forms/signals/schemas)
 - [Angular Signal Forms Testing](https://angular.dev/guide/forms/signals/testing)
 - [Angular Resource](https://angular.dev/guide/signals/resource)
 - [Angular httpResource](https://angular.dev/guide/http/http-resource)
@@ -143,4 +147,6 @@ README 必須以 GitHub 目前實際存在的文章為準；歷史文章恢復�
 - [Nx](https://nx.dev/)
 - [Nx Releases / Changelog](https://nx.dev/changelog)
 - [Nx 23.2 Release](https://nx.dev/blog/nx-23-2-release)
+- [Nx 23.3 Release](https://nx.dev/blog/nx-23-3-release)
+- [Nx Release Schedule and Support Policy](https://nx.dev/docs/reference/releases)
 - [Nx Angular / Nx Version Matrix](https://nx.dev/docs/kb/angular-nx-version-matrix)
