@@ -8,6 +8,7 @@
 
 | 日期 | 主題 | 文章 |
 |---|---|---|
+| 2026-10-26 | Signal Forms 提交流程 × Server Error Mapping | [閱讀文章](2026/10/2026-10-26-signal-forms-submit-server-errors.md) |
 | 2026-10-25 | Signal Forms 條件式 × 非同步驗證 × Nx 24 Task-based Affected | [閱讀文章](2026/10/2026-10-25-signal-forms-conditional-async-nx24.md) |
 
 ### 2026 年 9 月
@@ -51,6 +52,7 @@
 - 元件與共用元件設計
 - 測試策略
 - Cross-field / Conditional / Async Validation
+- Form Submission / Server Error Mapping
 - Angular 升級策略
 
 ### 🆕 Signal Forms 課程
@@ -69,6 +71,7 @@
 10. Testing + Feature Architecture
 11. Cross-field Logic：valueOf() / stateOf() / fieldTreeOf()
 12. Conditional / Async Validation（2026-10-25）
+13. Submit Lifecycle / Server Error Mapping（2026-10-26）
 
 ### Nx Monorepo
 
@@ -83,7 +86,7 @@
 - Nx 23.2 Agent-friendly workflow
 - Nx 23.3 Task-based Affected
 - Nx 24 Task-based Affected、inferred tasks 與升級注意事項
-- Nx Cloud Ultracache / Dynamic Task Packing
+- Nx Cloud Ultracache / Dynamic Task Packing（2026-10-22）
 
 ---
 
@@ -107,7 +110,8 @@
 │   ├── 2026-09-24-*.md
 │   └── 2026-09-29-*.md
 └── 10/
-    └── 2026-10-25-signal-forms-conditional-async-nx24.md
+    ├── 2026-10-25-signal-forms-conditional-async-nx24.md
+    └── 2026-10-26-signal-forms-submit-server-errors.md
 ~~~
 
 檔名規則：YYYY-MM-DD-當日核心主題.md
@@ -126,7 +130,7 @@
 
 README 必須以 GitHub main 分支目前實際存在的文章為準；歷史文章恢復後也要補入索引。
 
-不再同步到 Notion。
+不同步到 Notion。
 
 ---
 
@@ -139,6 +143,7 @@ README 必須以 GitHub main 分支目前實際存在的文章為準；歷史文
 - [Angular Signal Forms](https://angular.dev/essentials/signal-forms)
 - [Angular Signal Forms Validation](https://angular.dev/guide/forms/signals/validation)
 - [Angular Signal Forms Async Operations](https://angular.dev/guide/forms/signals/async-operations)
+- [Angular Signal Forms Form Submission](https://angular.dev/guide/forms/signals/form-submission)
 - [Angular Signal Forms Schemas](https://angular.dev/guide/forms/signals/schemas)
 - [Angular Signal Forms Testing](https://angular.dev/guide/forms/signals/testing)
 - [Angular Resource](https://angular.dev/guide/signals/resource)
